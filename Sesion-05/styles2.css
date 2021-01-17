@@ -1,0 +1,120 @@
+body{
+    background-color: whitesmoke; 
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    color: tomato;
+}
+
+@media (max-width: 575px){
+    body{
+        background-color: wheat; 
+    }
+
+    .navbar,
+    .actions {
+        display: none;
+    }
+
+    h1{
+        font-family: 'Lucida Sans';
+        font-size: 14px;
+        color: darkgreen;
+
+    }
+
+    .banner > img{
+        width: 100%;
+    }
+
+    .publish{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .publish > p {
+        margin-left: 10%;
+    }
+
+    .publish > h3{
+        text-align: center;
+        color: darkslategray;
+        margin-bottom: 15px;
+    }
+
+    .publish > p{
+        text-align: justify;
+        line-height: 1.5em;
+        padding: 10px;
+    }
+
+    .publish > article{
+        margin-bottom: 30px;
+    }
+
+
+    .explanatory-video{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    video{
+        width: 80%;
+    }
+
+    .features{
+        background-color: ghostwhite;
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature-card{
+        width: 90%;
+        background-color: whitesmoke; 
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature-content{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI';
+    }
+
+    .feature-content > h3{
+        font-size: 18px;
+        
+        color: teal;
+    }
+
+    .feature-content > p{
+        text-align: justify;
+        line-height: 1.5em;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .feature-content > a{
+        color: darkred;
+    }
+
+}
