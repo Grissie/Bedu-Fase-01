@@ -1,0 +1,20 @@
+/*
+.navbar{
+    text-align: center;
+    color: darkgoldenrod;
+    font-weight: 500;
+    background-color: darkkhaki;
+}
+*/
+
+#carouselExampleFade{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    background-color: darkorange;
+}
+
+.container{
+    width: 100%;
+    background-color: darkorange;
+}
